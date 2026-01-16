@@ -75,7 +75,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
             
             <div class="glass p-6 rounded-2xl hover:-translate-y-2 transition duration-300">
-                <img src="foto-evoting.jpeg" alt="E-Voting Project" class="w-full h-40 object-cover rounded-xl mb-4 border border-gray-700">
+                <img src="assets/foto-evoting.jpeg" alt="E-Voting Project" class="w-full h-40 object-cover rounded-xl mb-4 border border-gray-700">
                 <h3 class="text-xl font-bold mb-2">E-Voting Web</h3>
                 <p class="text-gray-400 text-sm mb-4">Pemilihan Ketua dan Wakil Ketua OSIS SMK Negeri 1 Bojong Purwakarta.</p>
                 <div class="flex gap-2">
@@ -84,7 +84,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             </div>
 
             <div class="glass p-6 rounded-2xl hover:-translate-y-2 transition duration-300">
-                <img src="samsat.jpeg" alt="Samsat App" class="w-full h-40 object-cover rounded-xl mb-4 border border-gray-700">
+                <img src="assets/samsat.jpeg" alt="Samsat App" class="w-full h-40 object-cover rounded-xl mb-4 border border-gray-700">
                 <h3 class="text-xl font-bold mb-2">Samsat App</h3>
                 <p class="text-gray-400 text-sm mb-4">Tugas Akhir Semester.</p>
                 <span class="text-xs bg-gray-800 px-2 py-1 rounded">2025</span>
@@ -106,14 +106,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
             
             <div class="glass p-6 rounded-2xl hover:-translate-y-2 transition duration-300 flex flex-col items-center text-center">
-                <img src="ser1.jpeg" alt="Sertifikat 1" class="w-full h-64 object-cover rounded-xl mb-4 border border-gray-700">
+                <img src="assets/ser1.jpeg" alt="Sertifikat 1" class="w-full h-64 object-cover rounded-xl mb-4 border border-gray-700">
                 <h3 class="text-xl font-bold mb-1">Oracle Academy</h3>
                 <p class="text-gray-400 text-sm mb-3">Pemrograman Java 1</p>
                 <span class="text-xs border border-primary text-primary px-3 py-1 rounded-full">2025</span>
             </div>
 
             <div class="glass p-6 rounded-2xl hover:-translate-y-2 transition duration-300 flex flex-col items-center text-center">
-                <img src="ser2.jpeg" alt="Sertifikat 2" class="w-full h-64 object-cover rounded-xl mb-4 border border-gray-700">
+                <img src="assets/ser2.jpeg" alt="Sertifikat 2" class="w-full h-64 object-cover rounded-xl mb-4 border border-gray-700">
                 <h3 class="text-xl font-bold mb-1">Oracle Academy</h3>
                 <p class="text-gray-400 text-sm mb-3">Pemrograman Java 2</p>
                 <span class="text-xs border border-primary text-primary px-3 py-1 rounded-full">2025</span>
