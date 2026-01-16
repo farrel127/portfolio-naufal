@@ -9,7 +9,7 @@ if (!isset($_GET['kunci']) || $_GET['kunci'] != $password_akses) {
     die("<body style='background:#0f172a; color:white; display:flex; justify-content:center; align-items:center; height:100vh; font-family:sans-serif;'>
             <div style='text-align:center;'>
                 <h1>AKSES DITOLAK 🔒</h1>
-                <p>Masukkan kunci di URL. Contoh: admin.php?kunci=naufal123</p>
+                <p>Ada aktivitas yang mencurigakan! Anda telah dilaporkan ke Developer</p>
             </div>
          </body>");
 }
