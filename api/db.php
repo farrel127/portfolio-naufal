@@ -21,9 +21,7 @@ $options = [
 try {
     $pdo = new PDO($dsn, $user, $pass, $options);
 } catch (\PDOException $e) {
-    // Jika koneksi gagal, variabel pdo jadi null
     $pdo = null;
-    // Hilangkan komentar di bawah ini jika ingin melihat pesan error (jangan saat live)
-    // echo "Koneksi Gagal: " . $e->getMessage();
+    echo "Koneksi Gagal: " . $e->getMessage(); // <--- Hapus garis miringnya
 }
 ?>
